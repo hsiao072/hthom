@@ -1,0 +1,166 @@
+* {
+padding:50;
+margin: 50, 50,50;}
+
+body {
+    background-color:#EDF2C5;
+    margin: auto;
+    max-width: 1440px;
+    max-height: 1024px;
+}
+
+.toptop {   
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1122px;
+    min-width: 1122px; 
+} 
+
+.topleft {
+    color: #778A50;
+    font-size:44px;
+    font-family:Noto Sans;
+    font-weight: 1000;
+    margin: 0%;
+}
+
+.lemon {
+    margin-top: 16px;
+}
+
+.topright {
+    display: flex;
+    font-family:Noto Sans;
+    color: #778A50;
+    margin-left: 600px;
+    align-items: center;
+}
+.fb {
+    margin-right: 12px;
+}
+
+.ig {
+    padding-right: 13px;
+    border-right:1px solid #778A50;
+} 
+
+#login, #join {
+    border: 1px solid #778A50;
+    display: flex;
+    justify-content: center;
+    width: 62px;
+    height: 27px;
+    padding: 4px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 12px;
+}
+
+header li {
+    display: flex;
+    flex-direction: row;
+    display:inline;
+    color:#EDF2C5;
+    font-size:16px;
+    font-weight: 700;
+    font-family:Noto Sans;
+    margin-right: 25px;
+    width: 208px;
+    padding-left:30px;
+    align-items: center
+}
+
+header {
+    background-color:#778A50;
+    width: 1120px;
+    height: 44px;
+}
+
+.article {
+    margin-right: 64px;
+    
+}
+.container {
+    display: flex;
+    margin-top: 32px;
+}
+    
+.sidebar {
+    width: 528px;
+    height: 140px;
+    
+    
+}
+.pp {
+    padding: 10px 30px 10px 30px;
+    background-color: #F7FBDA;
+    margin-top: 16px;
+
+}
+.sidebar  p {
+    font-family:Noto Sans;
+    font-size:12px;
+}
+
+.email {
+    font-family:Noto Sans;
+    border-top: 1px solid #7D7D7D;
+    padding-top: 10px;
+    font-size:12px;
+}
+
+.middlevege{
+    background-color:#778A50;
+    color:#EDF2C5;
+    width: 528px;
+    height: 45px;
+    font-family:Noto Sans;
+}
+
+.middlecontact {
+    background-color:#778A50;
+    color:#EDF2C5;
+    font-family:Noto Sans;
+    width: 528px;
+    height: 45px;
+    
+}
+
+.one {
+    font-size: 16px;
+    padding-left:30px;
+}
+.corntmd { 
+    display: flex;
+    background-color: #EDF2C5;
+    width: 528px;
+    height: 140px;
+    justify-content: space-between;
+    
+    margin-top: 16px;
+}
+
+.title { /*中標題*/
+    font-size: 16px;
+    color: #F7FBDA;
+    cursor: pointer;}
+
+footer {
+    background-color:#778A50;
+    color: #EDF2C5;
+    font-family:Noto Sans;
+    font-size: 12px;
+    font-weight: 400;
+    width: 1140px;
+    height: 60px;
+    text-align: center;
+}
+
+footer p{
+    padding:21px;
+}
